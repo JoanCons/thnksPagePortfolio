@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:wght@300&display=swap');
+:root {
+    --color_muy_oscuro: #112522;
+    --color_oscuro: #214541;
+    --color_principal: #009688;
+    --color_principal2: #007368;
+    --color_secundario: #4FBDBA;
+    --color_claro: rgba(225, 242, 241, 0.953);
+    --color_neutro: #f1e5df;
+    --color_resaltario: #1e00a5;
+    --color_resaltario2: #64ffda;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    width: 99vw;
+    height: 100vh;
+    color: var(--color_claro);
+    background: rgb(18, 24, 26);
+    background: linear-gradient(315deg, rgba(18, 24, 26, 1) 0%, rgba(7, 34, 39, 1) 68%, rgba(10, 58, 57, 1) 100%);
+}
+
+.imgContainerFondo1 {
+    height: 46vh;
+    width: 99vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100wh;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgF1 {
+    max-width: 99vw;
+    max-height: auto !important;
+    margin-top: -15%;
+}
+
+.gracias {
+    display: flex;
+    justify-content: center;
+    margin-top:2.5em;
+}
+
+.downloadCV {
+    padding: 13px 23px;
+    font-size: 1.2em;
+    color: black;
+    background-color: var(--color_principal);
+    border: none;
+    border-radius: 20px;
+    margin-top: 4%;
+    cursor: pointer;
+}
+
+.downloadCV:hover {
+    background-color: #00766a;
+    color: var(--color_resaltario);
+}
+
+h1{
+    font-size: 3.5em;
+}
